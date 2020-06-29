@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  recipe-app:
+    build:
+      target: $TARGET
+    volumes:
+      - ./src:/app/src
+    ports:
+      - $PORT:$PORT
+
+networks:
+  default:
+    external:
+      name: development

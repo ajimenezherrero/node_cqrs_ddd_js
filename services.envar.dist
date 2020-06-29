@@ -1,0 +1,10 @@
+export PORT=3088
+export NODE_ENV=dev
+
+export PG_USER=foo
+export PG_HOST=foo.com
+export PG_DATABASE=foo
+export PG_PASSWORD=foo
+export PG_PORT=1111
+
+export LOGGER_LEVEL=info

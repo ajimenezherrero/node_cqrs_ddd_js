@@ -1,0 +1,38 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Dist directory
+dist/
+
+# Data directory
+data/
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# idea
+.idea
+
+# Optional eslint cache
+.eslintcache
+
+# Other
+.DS_Store
+
+services.envar
+secrets/
+.nyc_output/
+
+.env
+

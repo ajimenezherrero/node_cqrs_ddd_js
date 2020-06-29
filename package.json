@@ -1,0 +1,52 @@
+{
+  "name": "cqrs-ddd-nodejs",
+  "version": "0.0.0",
+  "description": "Project to create a service about cqrs and ddd with Node Js",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "serve": "node dist/index.js",
+    "lint": "eslint ./src",
+    "start": "babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "NodeJs",
+    "CQRS",
+    "DDD"
+  ],
+  "author": "Alejandro Jiménez",
+  "license": "ISC",
+  "dependencies": {
+    "@influmy/logger": "1.0.7",
+    "body-parser": "1.19.0",
+    "core-js": "3.6.5",
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "pg": "8.2.1",
+    "regenerator-runtime": "0.13.5",
+    "swagger-jsdoc": "4.0.0",
+    "swagger-ui-express": "4.1.4",
+    "winston": "3.2.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.10.1",
+    "@babel/core": "7.10.2",
+    "@babel/node": "7.10.1",
+    "@babel/plugin-proposal-class-properties": "7.10.1",
+    "@babel/plugin-proposal-decorators": "7.10.1",
+    "@babel/preset-env": "7.10.2",
+    "babel-eslint": "10.1.0",
+    "babel-plugin-istanbul": "6.0.0",
+    "babel-plugin-module-resolver": "4.0.0",
+    "babel-tape-runner": "3.0.0",
+    "eslint": "7.2.0",
+    "eslint-import-resolver-babel-module": "5.1.2",
+    "eslint-plugin-import": "2.20.2",
+    "eslint-plugin-promise": "4.2.1"
+  }
+}
